@@ -108,7 +108,7 @@ body {
 
 .bonus {
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     align-items: center;
     padding: 240px;
 }
@@ -164,4 +164,99 @@ body {
     font-weight: 700;
     line-height: 35px;
     text-decoration-line: underline;
+}
+
+.hot-deal {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.hot-container {
+
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.hot-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-bottom: 20px;
+}
+
+.hot-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 20px;
+}
+
+.hot-btn {
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.picpart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 240px;
+}
+
+.pic {
+    padding-right: 24px;
+}
+
+.lsech {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.lsecd {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+textarea {
+    border-radius: 8px;
+    background: #FFF;
+    width: 700px;
+    height: 64px;
+    flex-shrink: 0;
+
+}
+
+.div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.last-section{
+    background-image: url(Flower\ Asset\Rectangle9.png);
 }
