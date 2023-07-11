@@ -264,10 +264,10 @@ footer {
     padding: 0 0 90px 0;
 
 }
-.hight{
+
+.hight {
     background-color: black;
-    height: 200px
-    ;
+    height: 200px;
 }
 
 .mtitle h1 {
@@ -287,4 +287,51 @@ footer {
     color: rgba(255, 255, 255, 0.40);
     text-align: center;
     margin-top: 25px;
+}
+
+
+.about {
+    padding: 20px;
+    border-radius: 10px;
+    margin: 130px;
+    margin-bottom: 100px;
+    
+}
+
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-description {
+    color: #757575;
+    text-align: center;
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100PX;
+
+}
+
+.about-info {
+    text-align: center;
+}
+
+.about-us {
+    height: 200px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
