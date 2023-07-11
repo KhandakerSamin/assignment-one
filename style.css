@@ -1,83 +1,53 @@
-* {
-    margin: 0px;
-}
-
 body {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
 
-.nav {
-    margin: 0px 150px;
-}
-
-.text-logo {
-    color: #E55473;
-    font-size: 48px;
-    font-weight: 800;
-    padding-left: 50px;
-    margin-top: 10px;
-}
-
-.nav-title {
-    color: #bdb5b5;
-    font-size: 48px;
-    font-weight: 800;
-}
-
-.header {
-    background-color: rgba(229, 84, 115, 0.10);
-
-}
-
-.banner-title {
-    color: #272727;
-    font-size: 80px;
-    font-weight: 800;
-    text-align: left;
-    width: 800px;
-    flex-direction: column;
-    flex-shrink: 0;
-    padding: 32px;
-}
-
-.banner-description {
-    color: rgba(39, 39, 39, 0.60);
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-    width: 634px;
-    flex-direction: column;
-    flex-shrink: 0;
-    padding: 32px;
-}
-
-.btn-banner {
-    border-radius: 8px;
-    background: #E55473;
-    border: none;
+.header-container {
     display: flex;
-    padding: 20px 43px;
-    gap: 10px;
-    color: #FFF;
-    font-size: 20px;
-    font-weight: 700;
+    padding: 50px 50px -0px 100px;
+    background: rgba(229, 84, 115, 0.10);
+
 }
 
 .banner {
-    padding: 30px 30px 0px 150px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    text-align: left;
+    width: 50%;
 }
 
-.header-pic {
-    width: 635px;
-    height: 800px;
-    flex-shrink: 0;
-    background-position: bottom right;
-    padding-right: 100px;
+.header-img {
+    text-align: center;
+
+}
+
+.content {
+    padding: 0px 50px 0px 50px;
+}
+
+.banner-title {
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.btn-banner {
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
+    margin-top: 10px;
+    border-radius: 8px;
+    background-color: #E55473;
+
+}
+
+.header-img {
+    margin-top: 10px;
+}
+
+.featured {
+    font-size: 30px;
+    font-weight: bold;
+
 }
 
 .section-title {
@@ -100,70 +70,75 @@ body {
 
 }
 
-.featured {
-    text-align: center;
-    justify-content: space-between;
-    align-items: center;
-}
+
 
 .bonus {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 240px;
+    padding: 100px;
+    justify-content: center;
+    text-align: center;
 }
 
 .spic1 {
-    border-radius: 300px 300px 0px 0px;
-    background: rgba(167, 33, 98, 0.15);
+    padding: 50px;
+    width: 400px;
+
+}
+
+.spic1 div {
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 50% 50% 0px 0px;
+    background-color: rgba(241, 184, 222, 0.851);
 
 }
 
 .spic2 {
-    border-radius: 300px 300px 0px 0px;
-    background: rgba(5, 151, 160, 0.15);
+    width: 400px;
+    padding: 50px;
 
+}
+
+.spic2 div {
+    height: 400px;
+    width: 100%;
+    background-color: rgba(234, 229, 158, 0.82);
+    overflow: hidden;
+    border-radius: 50% 50% 0px 0px;
 }
 
 .spic3 {
-    border-radius: 500px 500px 0px 0px;
-    background: rgba(71, 125, 17, 0.15);
+    padding: 50px;
+    width: 400px;
+}
+
+.spic3 div {
+    height: 400px;
+    width: 100%;
+    background-color: rgba(241, 189, 193, 0.982);
+    overflow: hidden;
+    border-radius: 50% 50% 0px 0px;
 }
 
 .simg1 {
-    width: 310px;
-    height: 428px;
-    flex-shrink: 0;
-    justify-content: center;
-    display: flex;
+    height: 300px;
+    padding: 100px 0px 0px 0px;
 }
 
 .simg2 {
-    width: 310px;
-    height: 428px;
-    flex-shrink: 0;
-    justify-content: center;
-    display: flex;
+    height: 300px;
+    padding: 100px 0px 0px 0px;
 }
 
 .simg3 {
-    width: 310px;
-    height: 428px;
-    flex-shrink: 0;
-    justify-content: center;
-    display: flex;
-
+    height: 300px;
+    padding: 100px 0px 0px 0px;
 }
 
-.caption {
-    color: #272727;
-    text-align: center;
-    font-family: Lato;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 35px;
-    text-decoration-line: underline;
+.underline {
+    text-decoration: underline;
+    font-size: 25px;
 }
 
 .hot-deal {
@@ -212,51 +187,104 @@ body {
     gap: 10px;
 }
 
-.picpart {
+.all-pic {
     display: flex;
-    justify-content: space-between;
+    padding: 100px;
+    justify-content: center;
     align-items: center;
-    padding: 50px 240px;
+    text-align: center;
 }
 
 .pic {
-    padding-right: 24px;
+    width: 25%;
 }
 
-.lsech {
-    color: #272727;
+.pic img {
+    height: 400px;
+    width: 90%;
+    margin: 0px 5px;
+}
+
+.last-part {
+    margin: 120px;
+    background-image: url(Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.last-content {
+    padding: 100px 100px;
+
+}
+
+.last-content h1 {
     text-align: center;
-    font-family: Lato;
     font-size: 40px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
+    font-weight: bold;
 }
 
-.lsecd {
-    color: rgba(39, 39, 39, 0.60);
+.last-content p {
     text-align: center;
-    font-family: Lato;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
+    margin-top: -20px;
 }
 
-textarea {
-    border-radius: 8px;
-    background: #FFF;
-    width: 700px;
-    height: 64px;
-    flex-shrink: 0;
-
-}
-
-.div {
+.divition {
     display: flex;
-    justify-content: space-around;
+    padding: 20px 200px;
+    justify-content: center;
     align-items: center;
 }
-.last-section{
-    background-image: url(Flower\ Asset\Rectangle9.png);
+
+input {
+    width: 70%;
+    height: 40px;
+    border: none;
+}
+
+.divition .btn-banner {
+    margin-top: -2px;
+    margin-left: 5px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px 0px 100px 0px;
+}
+
+.desine {
+    color: #E55473;
+}
+
+.mtitle {
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+    padding: 0 0 90px 0;
+
+}
+.hight{
+    background-color: black;
+    height: 200px
+    ;
+}
+
+.mtitle h1 {
+    text-align: center;
+    padding: 40px 0 25px 0;
+}
+
+.mtitle p {
+    color: rgba(255, 255, 255, 0.90);
+    font-weight: 400;
+    width: 550px;
+    text-align: center;
+    margin: auto;
+}
+
+.mtitle h6 {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    margin-top: 25px;
 }
